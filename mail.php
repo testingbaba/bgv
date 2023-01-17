@@ -9,6 +9,7 @@ use PHPMailer\PHPMailer\Exception;
 require('PHPMailer/Exception.php');
 require('PHPMailer/SMTP.php');
 require('PHPMailer/PHPMailer.php');
+include('./database/conn_db.php');
 
 extract($_REQUEST);
 
@@ -31,10 +32,24 @@ function died($error)
 }
 $mail = new PHPMailer(true);
 
-try {
+$sel_query_email = "SELECT * FROM `cand_reg` WHERE cand_email='" . $email . "'";
+$sel_query_phone = "SELECT * FROM `cand_reg` WHERE cand_phone='" . $phone . "'";
+$results_1 = mysqli_query($con, $sel_query_email);
+$results_2 = mysqli_query($con, $sel_query_phone);
+$row1 = mysqli_num_rows($results_1);
+$row2 = mysqli_num_rows($results_2);
+
+
+if($row1 == "" && $row2 =="" ){
+    
+  try {
 
     // generate OTP
     $otp = rand(100000, 999999);
+
+    $otp_resend_query = "INSERT into `email_otp` (email_id,otp) VALUES ('$email','$otp')";
+    $otp_resend_result = mysqli_query($con, $otp_resend_query);
+
     // Send OTP from mail
     $output = '';
 
@@ -76,8 +91,12 @@ try {
 
 
     echo "<script>window.location='otp.php'</script>";
-} catch (Exception $e) {
+  } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+  }
+}else{
+    echo "<script type='text/javascript'>alert('Email or phone number are already used.');</script>";
+    echo "<script>window.location='login.php'</script>";
 }
 
 ?>
