@@ -20,6 +20,7 @@
                     },
                     updateScreen: function () {
 
+
                         this.reset(); 
 
                         this.goTo(this.index);

@@ -398,3 +398,32 @@ body {
 .walkthrough .screens .screen.active .media.comm .status-badge {
     transition-delay: 1.6s;
 }
+
+
+/* @media screen and (max-width: 426px) {
+    .walkthrough {
+        box-shadow: 0 6px 12px rgb(0 0 0 / 23%), 0 10px 40px rgb(0 0 0 / 19%);
+        background: linear-gradient(to right bottom, #9e66c6, #6027e1);
+        border-radius: 0;
+        display: none;
+        flex-direction: column;
+        flex: 0 0 auto;
+        font-size: 14px;
+        height: 56rem;
+        overflow: hidden;
+        transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+        width: 34rem;
+        z-index: 1000;
+    }
+
+    .walkthrough .walkthrough-body p {
+        line-height: 1.45em;
+        font-size: 49px;
+        margin-top: 16px;
+        padding-top: 0;
+        color: white;
+        text-align: justify;
+    }
+
+  } */
+
