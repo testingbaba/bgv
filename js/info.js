@@ -1,7 +1,5 @@
-
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 (function () {
-
             $(document).ready(function () {
                 var walkthrough;
                 walkthrough = {
@@ -19,10 +17,7 @@
                         }
                     },
                     updateScreen: function () {
-
-
                         this.reset(); 
-
                         this.goTo(this.index);
                         return this.setBtns();
                     },

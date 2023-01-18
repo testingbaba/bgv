@@ -4,9 +4,6 @@
 
     <meta charset="UTF-8">
 
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-
-
     <link rel="apple-touch-icon" type="image/png"
         href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
     <meta name="apple-mobile-web-app-title" content="CodePen">
@@ -40,6 +37,7 @@
 
     <!--font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
     <link rel="stylesheet" href="css/form.css">
 
     <!-- Script -->
@@ -73,8 +71,7 @@
                             <li id="address"><strong>Address</strong></li>
                             <li id="account"><strong>ID Proof</strong></li>
                             <li id="educational"><strong>Educational Details</strong></li>
-                            <li id="post"><strong> Employement Details</strong></li>
-
+                            <li id="post"><strong> Employment Details</strong></li>
 
                             <li id="miscellaneous"><strong>References</strong></li>
                             <li id="payment"><strong>Other Details</strong></li>
@@ -114,23 +111,21 @@
                                     <div class="row">
                                         <div class="col-7  mx-auto">
                                             <h2 class="fs-title">Personal Details</h2>
-
                                             <br>
                                         </div>
                                     </div>
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Full Name<span class="astric">*</span></label>
+                                                <label class="fieldlabels"> Full Name*</label>
                                                 <input type="Name">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Fathers/Guardians Name<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Fathers/Guardians Name*</label>
                                                 <input type="text" name="Fathers/Guardians Name">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Blood Group<span class="astric">*</span></label>
-
+                                                <label class="fieldlabels">Blood Group*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -139,33 +134,28 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-
-                                                <label class="fieldlabels">Contact No<span class="astric">*</span></label>
-
+                                                <label class="fieldlabels">Contact No</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-
-                                                <label class="fieldlabels">Nationality<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Nationality</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Address<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Address</label>
                                                 <input type="text">
                                             </div>
                                         </div>
                                     </div>
 
 
-
                                     <div class="container">
 
                                         <div class="row">
-
 
                                             <div>
-                                                <label class="fieldlabels">Date of Birth<span class="astric">*</span></label><br><br>
+                                                <label class="fieldlabels">Date of Birth</label><br><br>
                                                 <input type="date" id="dob" min="23-12-2001">
                                             </div>
 
@@ -179,13 +169,13 @@
                                             </div>
                                         </div>
 
-
-
                                     </div>
                                 </div>
                                 <input type="button" name="next" class="next action-button" value="Next">
 
                             </fieldset>
+
+
 
 
 
@@ -203,20 +193,19 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Current Address<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Current Address</label>
                                                 <input type="Name" name="Name">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Landlord Adress</label>
+                                                <label class="fieldlabels">City*</label>
                                                 <input type="text">
                                             </div>
 
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">State<span class="astric">*</span></label>
+                                                <label class="fieldlabels">State*</label>
                                                 <br>
                                                 <select name="State" id="State">
-                                                    <option enable="">Select as</option>
 
                                                     <option value="">Delhi</option>
                                                     <option value="">Haryana</option>
@@ -232,8 +221,17 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">City<span class="astric">*</span></label>
-                                                <input type="text">
+
+                                                <label class="fieldlabels">PinCode*</label>
+
+                                                <select name="PinCode" id="pinCode">
+
+                                                    <option value="">121001</option>
+                                                    <option value="">121002</option>
+                                                    <option value="">121003</option>
+                                                    <option value="">121004</option>
+                                                    <option value="">121005</option>
+                                                </select>
                                             </div>
 
 
@@ -260,15 +258,15 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Current Address<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Current Address*</label>
                                                 <input type="Name" name="Name">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Landlord Address</label>
+                                                <label class="fieldlabels">Landlord Address*</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">City<span class="astric">*</span></label>
+                                                <label class="fieldlabels">City*</label>
                                                 <input type="text">
                                             </div>
 
@@ -280,10 +278,9 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">State<span class="astric">*</span></label>
+                                                <label class="fieldlabels">State*</label>
                                                 <br>
                                                 <select name="State" id="State">
-                                                    <option enable="">Select as</option>
 
                                                     <option value="">Delhi</option>
                                                     <option value="">Haryana</option>
@@ -302,15 +299,13 @@
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Landlord Phone No</label>
+                                                <label class="fieldlabels">Phone No</label>
                                                 <input type="text">
                                             </div>
 
 
                                         </div>
                                     </div>
-
-
                                 </div>
                                 <input type="button" name="previous" class="previous action-button-previous"
                                     value="Previous">
@@ -322,7 +317,10 @@
                             <!-- field set 3 -->
 
                             <fieldset>
-                              <!--Aadhar Card-->
+
+
+
+                                <!--Aadhar Card-->
                                 <div class="form-card">
                                     <div class="row">
                                         <div class="col-7 mx-auto">
@@ -333,17 +331,17 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Aadhar Number<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Aadhar Number*</label>
                                                 <input type="text">
                                             </div>
 
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Name as per Document<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Name as per Document*</label>
                                                 <input type="text" name="Fathers/Guardians Name">
                                             </div>
                                             <div class="col-sm">
-                                                <label for="myfile">Document<span class="astric">*</span></label>
+                                                <label for="myfile">Document*</label>
                                                 <input type="file" id="myfile" name="myfile" multiple>
                                             </div>
 
@@ -365,21 +363,23 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Pan Card Number<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Pan Card Number*</label>
                                                 <input type="Name">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Name as per Document<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Name as per Document*</label>
                                                 <input type="text" name="Fathers/Guardians Name">
                                             </div>
                                             <div class="col-sm">
-                                                <label for="myfile">Document<span class="astric">*</span></label>
+                                                <label for="myfile">Document*</label>
                                                 <input type="file" id="myfile" name="myfile" multiple>
                                             </div>
 
                                         </div>
                                     </div>
                                 </div>
+
+
 
                                 <!--Driving Licence-->
                                 <div class="form-card">
@@ -392,16 +392,16 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">DL Number</label>
+                                                <label class="fieldlabels">DL Number*</label>
                                                 <input type="Name">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Name as per Document</label>
+                                                <label class="fieldlabels">Name as per Document*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Place of Issue</label>
+                                                <label class="fieldlabels">Place of Issue*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -410,17 +410,17 @@
                                         <div class="row">
                                             <div class="col-sm">
 
-                                                <label class="fieldlabels">Date of Issue</label>
+                                                <label class="fieldlabels">Date of Issue*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels"> Expiry Date</label>
+                                                <label class="fieldlabels"> Expiry Date*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label for="myfile">Document</label>
+                                                <label for="myfile">Document*</label>
                                                 <input type="file" id="myfile" name="myfile" multiple>
                                             </div>
                                         </div>
@@ -441,17 +441,17 @@
                                         <div class="row">
                                             <div class="col-sm">
 
-                                                <label class="fieldlabels">Passport Number</label>
+                                                <label class="fieldlabels">Passport Number*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Name as per Document</label>
+                                                <label class="fieldlabels">Name as per Document*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Date of Issue</label>
+                                                <label class="fieldlabels">Date of Issue*</label>
                                                 <input type="text">
 
                                             </div>
@@ -462,22 +462,20 @@
                                         <div class="row">
                                             <div class="col-sm">
 
-                                                <label class="fieldlabels">Place of Issue</label>
+                                                <label class="fieldlabels">Place of Issue*</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels"> Expiry Date</label>
+                                                <label class="fieldlabels"> Expiry Date*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label for="myfile">Document</label>
+                                                <label for="myfile">Document*</label>
                                                 <input type="file" id="myfile" name="myfile" multiple>
                                             </div>
                                         </div>
                                     </div>
-
-
 
 
 
@@ -501,7 +499,6 @@
                             <fieldset>
                                 <div class="form-card">
                                     <div class="row">
-
                                         <div class="col-7 mx-auto">
                                             <h2 class="fs-title">Educational Details</h2>
                                         </div>
@@ -511,7 +508,7 @@
 
                                     <div class="row">
                                         <div class="col-7 mx-auto">
-                                            <h2 class="fs-title">High School</h2>
+                                            <h2 class="fs-title">High School*</h2>
                                         </div>
 
                                     </div><br><br>
@@ -520,37 +517,16 @@
                                         <div class="row">
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">School Name<span class="astric">*</span></label>
+                                                <label class="fieldlabels">School Name*</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Registration ID<span class="astric">*</span></label>
-                                                <input type="text">
-                                            </div>
-                                            <div class="col-sm">
-
-                                                <label class="fieldlabels">BoardName<span class="astric">*</span></label>
-                                                <input type="text">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="container">
-                                        <div class="row">
-
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">School Address<span class="astric">*</span></label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Year of Passing<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Registration ID*</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
 
-                                                <label class="fieldlabels">Marks<span class="astric">*</span></label>
+                                                <label class="fieldlabels">BoardName*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -559,8 +535,29 @@
                                     <div class="container">
                                         <div class="row">
 
+
                                             <div class="col-sm">
-                                                <label for="myfile">Document<span class="astric">*</span></label>
+                                                <label class="fieldlabels">School Address*</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Year of Passing*</label>
+                                                <input type="text">
+                                            </div>
+                                            <div class="col-sm">
+
+                                                <label class="fieldlabels">Marks*</label>
+                                                <input type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="container">
+                                        <div class="row">
+
+                                            <div class="col-sm">
+                                                <label for="myfile">Document:</label>
                                                 <input type="file" id="myfile" name="myfile" multiple>
                                             </div>
 
@@ -570,7 +567,7 @@
                                     <!--Intermediate-->
                                     <div class="row">
                                         <div class="col-7 mx-auto">
-                                            <h2 class="fs-title">Intermediate</h2>
+                                            <h2 class="fs-title">Intermediate*</h2>
                                         </div>
 
                                     </div><br><br>
@@ -579,17 +576,17 @@
                                         <div class="row">
                                             <div class="col-sm">
 
-                                                <label class="fieldlabels">School Name<span class="astric">*</span></label>
+                                                <label class="fieldlabels">School Name*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Registration ID<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Registration ID*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Board Name<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Board Name*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -599,19 +596,19 @@
                                         <div class="row">
                                             <div class="col-sm">
 
-                                                <label class="fieldlabels">School Address<span class="astric">*</span></label>
+                                                <label class="fieldlabels">School Address*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Year of Passing<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Year of Passing*</label>
                                                 <input type="text">
                                             </div>
 
 
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Marks<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Marks*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -622,7 +619,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label for="myfile">Document<span class="astric">*</span></label>
+                                                <label for="myfile">Document:</label>
                                                 <input type="file" id="myfile" name="myfile" multiple>
                                             </div>
 
@@ -634,7 +631,7 @@
                                     <!--Graduation-->
                                     <div class="row">
                                         <div class="col-7 mx-auto">
-                                            <h2 class="fs-title">Graduation</h2>
+                                            <h2 class="fs-title">Graduation*</h2>
                                         </div>
 
                                     </div><br><br>
@@ -642,17 +639,17 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">College Name</label>
+                                                <label class="fieldlabels">College Name*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">College ID</label>
+                                                <label class="fieldlabels">College ID*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">College Address</label>
+                                                <label class="fieldlabels">College Address*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -664,15 +661,15 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Year of Passing</label>
+                                                <label class="fieldlabels">Year of Passing*</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">University Name</label>
+                                                <label class="fieldlabels">University Name*</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Student E-mail ID</label>
+                                                <label class="fieldlabels">Student E-mail ID*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -684,7 +681,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label for="myfile">Degree/Marksheet</label>
+                                                <label for="myfile">Degree/Marksheet*</label>
                                                 <input type="file" id="myfile" name="myfile" multiple>
                                             </div>
                                         </div>
@@ -694,10 +691,11 @@
 
 
 
+
                                     <!--post Graduation-->
                                     <div class="row">
                                         <div class="col-7 mx-auto">
-                                            <h2 class="fs-title">Post Graduation</h2>
+                                            <h2 class="fs-title">Post Graduation*</h2>
                                         </div>
 
                                     </div><br><br>
@@ -727,15 +725,15 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Year of Passing</label>
+                                                <label class="fieldlabels">Year of Passing*</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">University Name</label>
+                                                <label class="fieldlabels">University Name*</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Student E-mail ID</label>
+                                                <label class="fieldlabels">Student E-mail ID*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -747,7 +745,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label for="myfile">Degree/Marksheet</label>
+                                                <label for="myfile">Degree/Marksheet*</label>
                                                 <input type="file" id="myfile" name="myfile" multiple>
                                             </div>
                                         </div>
@@ -758,7 +756,7 @@
 
                                     <div class="row">
                                         <div class="col-7 mx-auto">
-                                            <h2 class="fs-title">Other Details</h2>
+                                            <h2 class="fs-title">Other Details*</h2>
                                         </div>
 
                                     </div><br><br>
@@ -766,17 +764,17 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">College Name</label>
+                                                <label class="fieldlabels">College Name*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">College ID</label>
+                                                <label class="fieldlabels">College ID*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">College Address</label>
+                                                <label class="fieldlabels">College Address*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -788,15 +786,15 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Year of Passing</label>
+                                                <label class="fieldlabels">Year of Passing*</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">University Name</label>
+                                                <label class="fieldlabels">University Name*</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Student E-mail ID</label>
+                                                <label class="fieldlabels">Student E-mail ID*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -808,15 +806,13 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label for="myfile">Degree/Marksheet</label>
+                                                <label for="myfile">Degree/Marksheet*</label>
                                                 <input type="file" id="myfile" name="myfile" multiple>
                                             </div>
                                         </div>
                                     </div>
 
                                 </div>
-
-
 
 
                                 <input type="button" name="previous" class="previous action-button-previous"
@@ -833,7 +829,6 @@
                             <fieldset>
                                 <div class="form-card">
                                     <div class="row">
-
                                         <div class="col-7 mx-auto">
                                             <h2 class="fs-title"> Employement Details</h2>
                                         </div>
@@ -844,7 +839,7 @@
                                     <div class="row">
                                         <div class="col-7 mx-auto">
                                             <h2 class="fs-title">(Emp-1)Current Employment</h2>
-                                            <h2 class="fs-title">Permanent Employment</h2>
+                                            <h2 class="fs-title">Permanent Employment*</h2>
                                         </div>
 
                                     </div><br><br>
@@ -855,7 +850,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Name Of Company</label>
+                                                <label class="fieldlabels">Name Of Company*</label>
                                                 <input type="text">
                                             </div>
 
@@ -869,7 +864,7 @@
 
                                             <div class="col-sm">
                                                 <label class="fieldlabels">Company Address(Where are you
-                                                    employed)</label>
+                                                    employed)*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -879,57 +874,18 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Door No/Street</label>
+                                                <label class="fieldlabels">Door No/Street*</label>
                                                 <input type="text">
                                             </div>
 
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">City</label>
+                                                <label class="fieldlabels">City*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Pin</label>
-                                                <input type="text">
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">State</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Period of Employment</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Employee Code</label>
-                                                <input type="text">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Designation</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Remueration</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Department</label>
+                                                <label class="fieldlabels">Pin*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -939,17 +895,17 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Reported to</label>
+                                                <label class="fieldlabels">State*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Supervisor Designation</label>
+                                                <label class="fieldlabels">Period of Employment*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">E-mail id</label>
+                                                <label class="fieldlabels">Employee Code*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -958,7 +914,46 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Reason For leaving</label>
+                                                <label class="fieldlabels">Designation*</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Remueration*</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Department*</label>
+                                                <input type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Reported to*</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Supervisor Designation*</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">E-mail id*</label>
+                                                <input type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Reason For leaving*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -973,7 +968,7 @@
                                     <div class="row">
                                         <div class="col-7 mx-auto">
 
-                                            <h2 class="fs-title">Contractual Employment</h2>
+                                            <h2 class="fs-title">Contractual Employment*</h2>
                                         </div>
 
                                     </div><br><br>
@@ -983,26 +978,24 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Company Name</label>
+                                                <label class="fieldlabels">Company Name*</label>
                                                 <input type="text">
                                             </div>
 
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Company Address</label>
+                                                <label class="fieldlabels">Company Address*</label>
 
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Door No</label>
+                                                <label class="fieldlabels">Door No*</label>
 
                                                 <input type="text">
                                             </div>
                                         </div>
                                     </div>
-
-
 
 
 
@@ -1011,18 +1004,18 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Street</label>
+                                                <label class="fieldlabels">Street*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">City</label>
+                                                <label class="fieldlabels">City*</label>
                                                 <input type="text">
                                             </div>
 
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">State</label>
+                                                <label class="fieldlabels">State*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -1032,37 +1025,17 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Pin</label>
+                                                <label class="fieldlabels">Pin*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">State</label>
+                                                <label class="fieldlabels">State*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Company Contact Person</label>
-                                                <input type="text">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">E-mail ID</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Designation</label>
-                                                <input type="text">
-                                            </div>
-
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Phone No</label>
+                                                <label class="fieldlabels">Company Contact Person*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -1071,17 +1044,40 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">State you reason for leaving?</label>
+                                                <label class="fieldlabels">E-mail id*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Can a reference be taken now?</label>
+                                                <label class="fieldlabels">Designation*</label>
+                                                <input type="text">
+                                            </div>
+
+
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Phone No*</label>
+                                                <input type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">State you reason for leaving?*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">If No,when can it be taken?</label>
+                                                <label class="fieldlabels">Can a reference be taken now?*</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">If No,when can it be taken?*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -1090,7 +1086,7 @@
                                     <div class="row">
                                         <div class="col-7 mx-auto">
                                             <h2 class="fs-title">(Emp-2)Previous Employment</h2>
-                                            <h2 class="fs-title">Permanent Employment</h2>
+                                            <h2 class="fs-title">Permanent Employment*</h2>
                                         </div>
 
                                     </div><br><br>
@@ -1098,12 +1094,10 @@
 
 
 
-
-
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Name Of Company</label>
+                                                <label class="fieldlabels">Name Of Company*</label>
                                                 <input type="text">
                                             </div>
 
@@ -1117,7 +1111,7 @@
 
                                             <div class="col-sm">
                                                 <label class="fieldlabels">Company Address(Where are you
-                                                    employed)</label>
+                                                    employed)*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -1127,59 +1121,18 @@
                                         <div class="row">
                                             <div class="col-sm">
 
-                                                <label class="fieldlabels">Door No/Street</label>
+                                                <label class="fieldlabels">Door No/Street*</label>
                                                 <input type="text">
                                             </div>
 
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Street</label>
+                                                <label class="fieldlabels">Street*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">City</label>
-                                                <input type="text">
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">State</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Period of Employment</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Employee Code</label>
-                                                <input type="text">
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Designation</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Remueration</label>
-                                                <input type="text">
-                                            </div>
-
-                                            <div class="col-sm">
-                                                <label class="fieldlabels">Department</label>
+                                                <label class="fieldlabels">City*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -1189,17 +1142,58 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Reported to</label>
+                                                <label class="fieldlabels">State*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Supervisor Designation</label>
+                                                <label class="fieldlabels">Period of Employment*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">E-mail ID</label>
+                                                <label class="fieldlabels">Employee Code*</label>
+                                                <input type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Designation*</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Remueration*</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Department*</label>
+                                                <input type="text">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Reported to*</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">Supervisor Designation*</label>
+                                                <input type="text">
+                                            </div>
+
+                                            <div class="col-sm">
+                                                <label class="fieldlabels">E-mail id*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -1208,7 +1202,7 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Reason For leaving</label>
+                                                <label class="fieldlabels">Reason For leaving*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -1221,7 +1215,7 @@
                                     <div class="row">
                                         <div class="col-7 mx-auto">
 
-                                            <h2 class="fs-title">Contractual Employment</h2>
+                                            <h2 class="fs-title">Contractual Employment*</h2>
                                         </div>
 
                                     </div><br><br>
@@ -1230,18 +1224,18 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Company Name</label>
+                                                <label class="fieldlabels">Company Name*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Company Address</label>
+                                                <label class="fieldlabels">Company Address*</label>
 
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Door No</label>
+                                                <label class="fieldlabels">Door No*</label>
 
                                                 <input type="text">
                                             </div>
@@ -1254,18 +1248,18 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Street</label>
+                                                <label class="fieldlabels">Street*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">City</label>
+                                                <label class="fieldlabels">City*</label>
                                                 <input type="text">
                                             </div>
 
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">State</label>
+                                                <label class="fieldlabels">State*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -1275,17 +1269,17 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Pincode</label>
+                                                <label class="fieldlabels">Pin*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">State</label>
+                                                <label class="fieldlabels">State*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Company Contact Person</label>
+                                                <label class="fieldlabels">Company Contact Person*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
@@ -1294,22 +1288,21 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">E-mail ID</label>
+                                                <label class="fieldlabels">E-mail id*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Designation</label>
+                                                <label class="fieldlabels">Designation*</label>
                                                 <input type="text">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Phone No</label>
+                                                <label class="fieldlabels">Phone No*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
                                     </div>
-
 
 
                                 </div>
@@ -1324,7 +1317,6 @@
                             <fieldset>
                                 <div class="form-card">
                                     <div class="row">
-
                                         <div class="col-7 mx-auto">
                                             <h2 class="fs-title"> References</h2>
                                             <h2 class="fs-title">Personal References</h2>
@@ -1334,17 +1326,17 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Name of institution<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Name of institution*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Name of Reference<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Name of Reference*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Designation<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Designation*</label>
                                                 <input type="Name">
                                             </div>
                                         </div>
@@ -1354,12 +1346,12 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Mobile No<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Mobile No*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">E-mail ID<span class="astric">*</span></label>
+                                                <label class="fieldlabels">E-mail ID*</label>
                                                 <input type="Name">
                                             </div>
                                         </div>
@@ -1370,7 +1362,7 @@
                                     <div class="row">
                                         <div class="col-7 mx-auto">
                                             <h2 class="fs-title">Professional References</h2>
-                                            <h2 class="fs-title">Reference-1</h2>
+                                            <h2 class="fs-title">Reference-1*</h2>
                                         </div>
 
                                     </div><br><br>
@@ -1380,17 +1372,17 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Name<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Name*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Company/Designation<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Company/Designation*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">LandLine<span class="astric">*</span></label>
+                                                <label class="fieldlabels">LandLine*</label>
                                                 <input type="Name">
                                             </div>
                                         </div>
@@ -1399,12 +1391,12 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Mobile No<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Mobile No*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">E-mail ID<span class="astric">*</span></label>
+                                                <label class="fieldlabels">E-mail ID*</label>
                                                 <input type="Name">
                                             </div>
                                         </div>
@@ -1415,7 +1407,7 @@
                                     <div class="row">
                                         <div class="col-7 mx-auto">
 
-                                            <h2 class="fs-title">Reference-2</h2>
+                                            <h2 class="fs-title">Reference-2*</h2>
                                         </div>
 
                                     </div>
@@ -1423,18 +1415,18 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Name<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Name*</label>
                                                 <input type="Name">
                                             </div>
 
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Company/Designation<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Company/Designation*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">LandLine<span class="astric">*</span></label>
+                                                <label class="fieldlabels">LandLine*</label>
                                                 <input type="Name">
                                             </div>
                                         </div>
@@ -1444,12 +1436,12 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Mobile No<span class="astric">*</span></label>
+                                                <label class="fieldlabels">Mobile No*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">E-mail ID<span class="astric">*</span></label>
+                                                <label class="fieldlabels">E-mail ID*</label>
                                                 <input type="Name">
                                             </div>
                                         </div>
@@ -1459,24 +1451,24 @@
                                     <div class="row">
                                         <div class="col-7 mx-auto">
 
-                                            <h2 class="fs-title">Reference-3</h2>
+                                            <h2 class="fs-title">Reference-3*</h2>
                                         </div>
 
                                     </div>
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Name</label>
+                                                <label class="fieldlabels">Name*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Company/Designation</label>
+                                                <label class="fieldlabels">Company/Designation*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">LandLine</label>
+                                                <label class="fieldlabels">LandLine*</label>
                                                 <input type="Name">
                                             </div>
                                         </div>
@@ -1485,18 +1477,16 @@
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm">
-                                                <label class="fieldlabels">Mobile No</label>
+                                                <label class="fieldlabels">Mobile No*</label>
                                                 <input type="Name">
                                             </div>
 
                                             <div class="col-sm">
-                                                <label class="fieldlabels">E-mail ID</label>
+                                                <label class="fieldlabels">E-mail ID*</label>
                                                 <input type="Name">
                                             </div>
                                         </div>
                                     </div>
-
-
 
                                 </div>
                                 <input type="button" name="previous" class="previous action-button-previous"
@@ -1506,13 +1496,11 @@
                             </fieldset>
 
 
-
                             <!-- field set 7 -->
 
                             <fieldset>
                                 <div class="form-card">
                                     <div class="row">
-
                                         <div class="col-7 mx-auto">
                                             <h2 class="fs-title">Other Details</h2>
                                         </div>
@@ -1522,18 +1510,16 @@
                                         <div class="row">
                                             <div class="col-sm">
                                                 <label class="fieldlabels">Are you currently under service
-                                                    agreement/bond with your exiciting employment?Yes/No<span class="astric">*</span></label>
+                                                    agreement/bond with your exiciting employment?Yes/No*</label>
                                                 <input type="text">
                                             </div>
                                             <div class="col-sm">
                                                 <label class="fieldlabels">Have you ever been chargedor convicted for
-                                                    any criminal offense in india or abroad?Yes/No<span class="astric">*</span></label>
+                                                    any criminal offense in india or abroad?Yes/No*</label>
                                                 <input type="text">
                                             </div>
                                         </div>
                                     </div>
-
-
                                 </div>
                                 <input type="button" name="previous" class="previous action-button-previous"
                                     value="Previous">
