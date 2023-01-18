@@ -2,35 +2,38 @@
 
 <head>
 
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-
   <meta charset="UTF-8">
+
   <link rel="apple-touch-icon" type="image/png"
-    href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
-  <meta name="apple-mobile-web-app-title" content="CodePen">
+    href="./images/icons/fv-flucent.png">
+  <meta name="Flucent Technologies Pvt Ltd" content="bgv">
+
   <link rel="shortcut icon" type="image/x-icon"
-    href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+    href="./images/icons/fv-flucent.png">
+
   <link rel="mask-icon" type="image/x-icon"
-    href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
+    href="./images/icons/fv-flucent.png"
     color="#111">
-  <script src="https://cpwebassets.codepen.io/assets/packs/js/authorizeDataCapture-87166fe544ee463cb083.js"></script>
 
 
-  <title>CodePen - Onboarding Screens</title>
-  <title>Onboarding Walkthrough Screens</title>
+  <script src="./assets/packs/js/authorizeDataCapture-87166fe544ee463cb083.js"></script>
+
+
+  <title>Flucent Technologies - BGV</title>
+  <!-- <title>Onboarding Walkthrough Screens</title> -->
   <meta name="title" content="Onboarding Screens">
   <meta name="description" content="">
 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://codepen.io/jebbles/pen/MKoYya">
+  <meta property="og:url" content="https://flucenttechnologies.com/">
   <meta property="og:title" content="Onboarding Screens">
   <meta property="og:description" content="">
   <meta property="og:image" content="https://assets.codepen.io/167555/onboarding-walkthrough-screens.PNG">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://codepen.io/jebbles/pen/MKoYya">
-  <meta property="twitter:title" content="Onboarding Screens">
+  <meta property="twitter:url" content="https://twitter.com/FlucentTechnol1">
+  <meta property="twitter:title" content="FlucentTechnol1">
   <meta property="twitter:description" content="">
   <meta property="twitter:image" content="https://assets.codepen.io/167555/onboarding-walkthrough-screens.PNG">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -76,9 +79,7 @@
           <h3>
             Welcome to Flucent
           </h3>
-
-          <p> We are Mocapays onboarding, document management and background verification partner,and need your help for
-
+          <p> We are Mocapays onboarding,document management and background verification partner,and need your help for
             the same.</p>
         </li>
         <li class="screen">
@@ -136,7 +137,7 @@
     </div>
     <div class="walkthrough-footer">
       <button class="button next-screen">OK,LETS GO!</button>
-      <a href="login.html"><button class="button finish close" disabled="">Start</button></a>
+      <a href="login.php"><button class="button finish close" disabled="">Start</button></a>
     </div>
   </div>
 
@@ -252,5 +253,13 @@
     }).call(this);
 
   </script>
+
+
+
+
+
+
+
 </body>
+
 </html>
