@@ -134,7 +134,7 @@ button:focus {
 }
 
 .welcome {
-  font-weight: 200;
+  font-weight: 500;
   margin-top: 75px;
   text-align: center;
   font-size: 40px;
@@ -178,9 +178,9 @@ button:focus {
 }
 
 .overlay {
-  background: -webkit-linear-gradient(#8CA6DB, #B993D6);
-  background: linear-gradient(#8CA6DB, #B993D6);
-  opacity: 0.85;
+  background: -webkit-linear-gradient(#5f8ce6, #a752e7);
+  background: linear-gradient(#5589f1, #8a4abb);
+  /* opacity: 0.85; */
   filter: alpha(opacity=85);
   height: 560px;
   position: absolute;
