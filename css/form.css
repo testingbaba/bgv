@@ -18,12 +18,6 @@ p {
     margin-top: 20px
 }
 
-
-
-.astric{
-    color: red;
-}
-
 #msform fieldset {
     background: white;
     border: 0 none;
@@ -63,7 +57,6 @@ div.form-card {
     background-color: #ECEFF1;
     font-size: 25px;
     letter-spacing: 1px
-
 }
 
 #msform input:focus,
@@ -120,7 +113,6 @@ div.form-card {
     position: relative
 }
 
-
 label {
     font-size: 30px;
     color: #673AB7;
@@ -132,7 +124,6 @@ label {
     margin-bottom: 15px;
     font-weight: bolder;
     text-align: center;
-
     margin-left: 75%;
 }
 
@@ -166,7 +157,6 @@ label {
     color: #673AB7;
     text-align: left;
     font-size: 25px;
-
 }
 
 #progressbar {
@@ -186,9 +176,6 @@ label {
     float: left;
     position: relative;
     font-weight: 400;
-
-    color: rgb(66, 64, 64);
-
 
 }
 
@@ -239,9 +226,7 @@ label {
 #progressbar #payment:before {
     font-family: FontAwesome;
     content: "\f1f0";
-
 }
-
 
 
 
@@ -263,7 +248,6 @@ label {
     display: block;
     font-size: 20px;
     color: #ffffff;
-
     background: lightgray;
     border-radius: 50%;
     margin: 0 auto 10px auto;
@@ -307,19 +291,16 @@ optgroup,
 select,
 textarea {
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: #ECEFF1;
-    /* border: 1px solid #ccc; */
+    border: 1px solid #ccc;
     font-size: 15px;
     color: #673AB7;
-    border: 1px solid rgb(204, 204, 204);
 
 }
 
 .labels {
     height: 20%;
-    text-decoration: underline;
-
 
 }
 
