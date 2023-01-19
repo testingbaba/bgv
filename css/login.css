@@ -18,7 +18,9 @@ button:focus {
   color: rgba(255, 255, 255, 0.65);
 }
 
+
 ::-webkit-input-placeholder .input-line:focus+::input-placeholder {
+
   color: #fff;
 }
 
@@ -228,6 +230,7 @@ button:focus {
     height: 100%;
   }
 
+
   .input-line {
     background: none;
     margin-bottom: 10px;
@@ -243,5 +246,6 @@ button:focus {
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
   }
+
 
 }
