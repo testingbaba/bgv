@@ -87,8 +87,10 @@ $otp = $_SESSION['otp'];
 
             //Result for registration
             if ($result) {
+                $_SESSION['email'] = $email;
+                $_SESSION['cand_phone'] = $phone;
                 echo "<script type='text/javascript'>alert('You are registered successfully.' );</script>";
-                echo "<script>window.location='./form.html'</script>";
+                echo "<script>window.location='./form.php'</script>";
             } else {
                 echo "<script type='text/javascript'>alert('Your Email or Phone number is already registered.' );</script>";
                 echo "<script>window.location='./login.php'</script>";

@@ -124,7 +124,7 @@ label {
     margin-bottom: 15px;
     font-weight: bolder;
     text-align: center;
-    margin-left: 75%;
+    /* margin-left: 75%; */
 }
 
 p {

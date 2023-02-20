@@ -46,7 +46,7 @@ if($row1 == "" && $row2 =="" ){
 
     // generate OTP
     $otp = rand(100000, 999999);
-
+    mysqli_query($con, "DELETE FROM `email_otp` WHERE `email_id` = '$email'");
     $otp_resend_query = "INSERT into `email_otp` (email_id,otp) VALUES ('$email','$otp')";
     $otp_resend_result = mysqli_query($con, $otp_resend_query);
 

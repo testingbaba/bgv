@@ -137,7 +137,7 @@
     </div>
     <div class="walkthrough-footer">
       <button class="button next-screen">OK,LETS GO!</button>
-      <a href="login.php"><button class="button finish close" disabled="">Start</button></a>
+      <a href="signup.php"><button class="button finish close" disabled="">Start</button></a>
     </div>
   </div>
 
